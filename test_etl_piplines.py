@@ -4,6 +4,9 @@ class TestPiplines(unittest.TestCase):
     def test_extraction(self):
         self.assertGreaterEqual(len(etl.source_file_txt.index),1)
 
+# test tarsormation pahse 
+# 1- remove nulls 
+# 2- Filter data more than 25 
     def test_remove_null(self):
        self.assertEquals( etl.transform_data.isnull().values.any(),False)
 
