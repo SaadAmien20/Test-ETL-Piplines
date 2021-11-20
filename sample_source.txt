@@ -1,0 +1,5 @@
+name,salary
+mark,20
+Sara,30
+john,NA
+NA,50
